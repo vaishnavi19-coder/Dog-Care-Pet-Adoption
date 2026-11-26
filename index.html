@@ -1,0 +1,571 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dog Care & Pet Adoption</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            <div class="logo-icon">🐾</div>
+
+            <div class="logo-text">
+                <h2>Dog<span>Care</span></h2>
+                <p>LOVE • CARE • HAPPINESS</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#breeds">Dog Breeds</a>
+            <a href="#care">Dog Care</a>
+            <a href="#adoption">Adoption</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HOME SECTION -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Give Your Dog a Happy Life!</h1>
+
+            <p>
+                Dogs are not just pets, they are family.
+                Give them love, care and happiness.
+            </p>
+
+            <a href="#breeds" class="btn">
+                Explore Dogs
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT US SECTION -->
+
+    <section class="about" id="about">
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800"
+                    alt="Dog with owner">
+
+            </div>
+
+            <div class="about-content">
+
+                <h2>About Our Dog Care</h2>
+
+                <h3>Every Dog Deserves Love & Happiness!</h3>
+
+                <p>
+                    Welcome to Dog Care! We believe every dog
+                    deserves a happy, healthy and loving life.
+                    Our mission is to provide useful information
+                    about dog breeds, health, nutrition and adoption.
+                </p>
+
+                <p>
+                    We help dog lovers learn how to care for their
+                    furry friends and give homeless dogs a chance
+                    to find a loving family.
+                </p>
+
+                <a href="#contact" class="btn">Know More</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+
+<!-- DOG BREEDS SECTION -->
+
+<section class="breeds" id="breeds">
+
+    <h2>Popular Dog Breeds</h2>
+
+    <p class="section-desc">
+        Discover different dog breeds and find your perfect friend.
+    </p>
+
+    <!-- SEARCH AND FILTER -->
+
+    <div class="breed-search">
+
+        <input
+            type="text"
+            id="breedSearch"
+            placeholder="🔍 Search Dog Breed...">
+
+        <select id="breedFilter">
+            <option value="all">All Breeds</option>
+            <option value="friendly">Friendly Dogs</option>
+            <option value="smart">Smart Dogs</option>
+            <option value="active">Active Dogs</option>
+        </select>
+
+    </div>
+
+    <!-- BREED CARDS -->
+
+    <div class="breed-container">
+
+        <!-- 1. GOLDEN RETRIEVER -->
+
+        <div class="breed-card" data-category="friendly">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Retriever_Dukedestiny01_drvd.jpg"
+                alt="Golden Retriever"
+                loading="lazy">
+
+            <h3>Golden Retriever</h3>
+            <p>Friendly, intelligent and loyal dog.</p>
+
+        </div>
+
+        <!-- 2. GERMAN SHEPHERD -->
+
+        <div class="breed-card" data-category="smart">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/German_Shepherd_-_DSC_0346_(10096362833).jpg"
+                alt="German Shepherd"
+                loading="lazy">
+
+            <h3>German Shepherd</h3>
+            <p>Smart, brave and protective dog.</p>
+
+        </div>
+
+        <!-- 3. LABRADOR -->
+
+        <div class="breed-card" data-category="active">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Labrador_on_Quantock_(2175262184).jpg"
+                alt="Labrador"
+                loading="lazy">
+
+            <h3>Labrador</h3>
+            <p>Playful, friendly and loving dog.</p>
+
+        </div>
+
+        <!-- 4. BEAGLE -->
+
+        <div class="breed-card" data-category="friendly">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Beagle_600.jpg"
+                alt="Beagle"
+                loading="lazy">
+
+            <h3>Beagle</h3>
+            <p>Curious, cheerful and friendly dog.</p>
+
+        </div>
+
+        <!-- 5. POODLE -->
+
+        <div class="breed-card" data-category="smart">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Full_attention_(8067543690).jpg"
+                alt="Poodle"
+                loading="lazy">
+
+            <h3>Poodle</h3>
+            <p>Intelligent, active and easy to train.</p>
+
+        </div>
+
+        <!-- 6. SIBERIAN HUSKY -->
+
+        <div class="breed-card" data-category="active">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Husky_L.jpg"
+                alt="Siberian Husky"
+                loading="lazy">
+
+            <h3>Siberian Husky</h3>
+            <p>Energetic, friendly and adventurous dog.</p>
+
+        </div>
+
+        <!-- 7. POMERANIAN -->
+
+        <div class="breed-card" data-category="friendly">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Pomeranian.JPG"
+                alt="Pomeranian"
+                loading="lazy">
+
+            <h3>Pomeranian</h3>
+            <p>Small, playful and affectionate dog.</p>
+
+        </div>
+
+        <!-- 8. BORDER COLLIE -->
+
+        <div class="breed-card" data-category="smart">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Border_Collie_600.jpg"
+                alt="Border Collie"
+                loading="lazy">
+
+            <h3>Border Collie</h3>
+            <p>Highly intelligent, active and hardworking dog.</p>
+
+        </div>
+
+        <!-- 9. BOXER -->
+
+        <div class="breed-card" data-category="active">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Boxer-dog.jpg"
+                alt="Boxer"
+                loading="lazy">
+
+            <h3>Boxer</h3>
+            <p>Strong, playful and energetic dog.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- DOG CARE SECTION -->
+
+    <section class="care" id="care">
+
+        <h2>How To Take Care Of Your Dog</h2>
+
+        <p class="section-desc">
+            Keep your furry friend healthy, happy and active.
+        </p>
+
+        <div class="care-container">
+
+            <div class="care-card">
+                <div class="care-icon">🥗</div>
+                <h3>Healthy Food</h3>
+                <p>Provide nutritious food and fresh water every day.</p>
+            </div>
+
+            <div class="care-card">
+                <div class="care-icon">🏃</div>
+                <h3>Daily Exercise</h3>
+                <p>Take your dog for regular walks and outdoor activities.</p>
+            </div>
+
+            <div class="care-card">
+                <div class="care-icon">🛁</div>
+                <h3>Grooming</h3>
+                <p>Keep your dog clean with regular bathing and brushing.</p>
+            </div>
+
+            <div class="care-card">
+                <div class="care-icon">🩺</div>
+                <h3>Health Checkup</h3>
+                <p>Visit a veterinarian regularly for health checkups.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ADOPTION SECTION -->
+
+    <section class="adoption" id="adoption">
+
+        <h2>Adopt a Lovely Dog</h2>
+
+        <p class="section-desc">
+            Don't buy happiness, adopt it!
+            Give a homeless dog a loving home.
+        </p>
+
+        <div class="adoption-container">
+
+            <div class="adoption-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=500"
+                    alt="Cute Golden Dog">
+
+                <h3>Max</h3>
+
+                <p>Golden Retriever | 2 Years Old</p>
+
+                <button type="button" onclick="adoptDog('Max')">
+                    Adopt Me
+                </button>
+
+            </div>
+
+
+            <div class="adoption-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551717743-49959800b1f6?w=500"
+                    alt="Cute Puppy">
+
+                <h3>Bruno</h3>
+
+                <p>German Shepherd | 1 Year Old</p>
+
+                <button type="button" onclick="adoptDog('Bruno')">
+                    Adopt Me
+                </button>
+
+            </div>
+
+
+            <div class="adoption-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=500"
+                    alt="Cute Dog">
+
+                <h3>Rocky</h3>
+
+                <p>Labrador | 3 Years Old</p>
+
+                <button type="button" onclick="adoptDog('Rocky')">
+                    Adopt Me
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p class="section-desc">
+            Have questions about dog care or adoption?
+            Get in touch with us.
+        </p>
+
+        <div class="contact-container">
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="contactName"
+                    placeholder="Enter Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    id="contactEmail"
+                    placeholder="Enter Your Email"
+                    required>
+
+                <input
+                    type="text"
+                    id="contactSubject"
+                    placeholder="Enter Subject"
+                    required>
+
+                <textarea
+                    id="contactMessage"
+                    placeholder="Write Your Message"
+                    rows="5"
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- DOG ADOPTION APPLICATION FORM -->
+
+    <div class="adoption-modal" id="adoptionModal">
+
+        <div class="adoption-form">
+
+            <button
+                type="button"
+                class="close-btn"
+                onclick="closeAdoptionForm()">×</button>
+
+            <h2>Adopt Your New Friend 🐾</h2>
+
+            <p>Fill out the application form below.</p>
+
+            <form id="adoptionForm">
+
+                <label>Your Name</label>
+
+                <input
+                    type="text"
+                    id="adopterName"
+                    placeholder="Enter your name"
+                    required>
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    id="adopterEmail"
+                    placeholder="Enter your email"
+                    required>
+
+                <label>Mobile Number</label>
+
+                <input
+                    type="tel"
+                    id="adopterPhone"
+                    placeholder="Enter mobile number"
+                    pattern="[0-9]{10}"
+                    required>
+
+                <label>Select Dog</label>
+
+                <input
+                    type="text"
+                    id="selectedDog"
+                    readonly
+                    required>
+
+                <label>Your Address</label>
+
+                <textarea
+                    id="adopterAddress"
+                    placeholder="Enter your address"
+                    rows="3"
+                    required></textarea>
+
+                <button type="submit" class="submit-adoption">
+                    Submit Application
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <a
+            href="https://script.google.com/macros/s/AKfycbyC1KDfWLUReEe5QFoUi5ZA-lg2w9NEvDGu0sA5TnNTHIRcoD-JJJ_VUk1F1qVUzpCo5Q/exec"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="admin-link">
+            Admin Login
+        </a>
+
+        <h3>🐾 Dog Care & Adoption</h3>
+
+        <p>Love Dogs. Care Dogs. Adopt Dogs.</p>
+
+        <p>© 2026 Dog Care Website. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <!-- DOGCARE CHATBOT -->
+
+    <div class="chatbot-container">
+
+        <button
+            type="button"
+            class="chatbot-toggle"
+            onclick="toggleChatbot()">
+            🐶 Chat with Us
+        </button>
+
+        <div class="chatbot-box" id="chatbotBox">
+
+            <div class="chatbot-header">
+
+                <h3>DogCare Assistant 🐾</h3>
+
+                <button
+                    type="button"
+                    onclick="toggleChatbot()">✖</button>
+
+            </div>
+
+            <div class="chatbot-messages" id="chatbotMessages">
+
+                <p class="bot-message">
+                    Hello! Welcome to DogCare. How can I help you?
+                </p>
+
+            </div>
+
+            <div class="chatbot-input">
+
+                <input
+                    type="text"
+                    id="chatbotInput"
+                    placeholder="Ask something...">
+
+                <button
+                    type="button"
+                    onclick="sendMessage()">Send</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT CONNECTION - KEEP AT THE END -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
